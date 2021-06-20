@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Toothpick",
+    "ranking": 0.2,
+    "motorSizeMinimum": 20,
+    "motorSizeMaximum": 56
+  },
+  {
+    "name": "5 inch",
+    "ranking": 0.6,
+    "motorSizeMinimum": 80,
+    "motorSizeMaximum": 190,
+    "motorSizeOptimum": 160,
+    "escAmpMinimum": 30,
+    "escAmpMaximum": 90,
+    "escAmpOptimum": 65,
+    "motorSizeLow": 110,
+    "motorSizeHigh": 176,
+    "escAmpLow": 50,
+    "escAmpHigh": 60
+  },
+  {
+    "name": "7 inch",
+    "ranking": 0.8
+  },
+  {
+    "name": "Cinewhoop",
+    "ranking": 0.4
+  },
+  {
+    "name": "Whoop",
+    "ranking": 0.2
+  },
+  {
+    "name": "3 inch",
+    "ranking": 0.5
+  },
+  {
+    "name": "8 inch",
+    "ranking": 0.9
+  },
+  {
+    "name": "9 inch",
+    "ranking": 0.9
+  },
+  {
+    "name": "10 inch",
+    "ranking": 0.9
+  },
+  {
+    "name": "X-Class",
+    "ranking": 1
+  },
+  {
+    "name": "Beast class",
+    "ranking": 0.9
+  }
+]

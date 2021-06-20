@@ -1,0 +1,17 @@
+<svg class="quadcopter" id="quadSVG" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 150">
+    <defs>
+        <style>.cls-1{fill:#333;fill-opacity: 60%}.cls-2{fill:#1a1a1a;fill-opacity: 60%}</style>
+    </defs>
+    <polygon id="frame" style="fill-opacity: 60%"
+             points="81.6 78.48 144.57 105.94 140.57 109.85 77.6 82.38 38.99 118.56 32.29 115.41 70.9 79.23 12.91 49.9 16.91 45.99 74.91 75.33 108.54 41.02 115.24 44.17 81.6 78.48"/>
+    <path id="motor-top-left-barrel" class="cls-1" d="M4,39.65l4,12s10,2,16-4l-4-12A18.25,18.25,0,0,1,4,39.65Z"/>
+    <path id="motor-top-left-cover" class="cls-2" d="M20,35.66s-10-4-16,4C4,39.65,14,41.64,20,35.66Z"/>
+    <path id="motor-top-right-barrel" class="cls-1" d="M101.2,31l.44,12.61s9,4.74,16.44.69l-.45-12.61A18.2,18.2,0,0,1,101.2,31Z"/>
+    <path id="motor-top-right-cover" class="cls-2" d="M117.63,31.68S109.19,25,101.2,31C101.2,31,110.2,35.73,117.63,31.68Z"/>
+    <path id="motor-bottom-right-barrel" class="cls-1" d="M131.12,94.83l.44,12.61s9,4.73,16.44.69l-.44-12.61A18.26,18.26,0,0,1,131.12,94.83Z"/>
+    <path id="motor-bottom-right-cover" class="cls-2" d="M147.56,95.52s-8.44-6.65-16.44-.69C131.12,94.83,140.12,99.56,147.56,95.52Z"/>
+    <path id="motor-bottom-left-barrel" class="cls-1" d="M27.38,104.81l.45,12.6s9,4.74,16.43.69l-.44-12.61A18.23,18.23,0,0,1,27.38,104.81Z"/>
+    <path id="motor-bottom-left-cover" class="cls-2" d="M43.82,105.49s-8.44-6.65-16.44-.68C27.38,104.81,36.39,109.54,43.82,105.49Z"/>
+    <polygon id="esc" class="cls-2" points="59.86 71.57 65.84 87.53 87.79 83.54 83.8 67.58 59.86 71.57"/>
+    <polygon id="flightController" class="cls-2" points="59.86 65.58 65.84 81.54 87.79 77.55 83.8 61.59 59.86 65.58"/>
+</svg>

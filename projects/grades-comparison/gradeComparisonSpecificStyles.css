@@ -1,0 +1,255 @@
+button.bigButton{
+    min-width: 170px;
+    max-width: available;
+}
+button{
+    padding: 5px 15px;
+    border-radius: 4px;
+    margin-bottom: 4px;
+    color: #ffe755;
+    background-color: #2F302F;
+}
+button:hover{
+    color: #ffe755;
+    background-color: #2F302F;
+    cursor: pointer;
+}
+button:disabled{
+    cursor: default;
+}
+button.bigButton.tooltipButton{
+    width: 100%;
+}
+button.smallButton{
+    min-width: 0;
+}
+input{
+    padding: 5px 15px;
+    border-radius: 4px;
+    margin-bottom: 4px;
+    color: #ffe755;
+    background-color: #2F302F;
+}
+.google-visualization-controls-slider-thumb{
+    background-color: #ffe755;
+    border-color: black;
+}
+.google-visualization-controls-rangefilter-thumblabel{
+    align-self: center;
+    color: black;
+    width: 75px;
+}
+.google-visualization-controls-slider-handle{
+    background-color: #f5d142;
+}
+.google-visualization-controls-rangefilter>div{
+    align-self: center;
+}
+#filtersContainer{
+    display: flex;
+    width: 100%;
+}
+#filtersContainer>div{
+    width: 100%;
+}
+@media (min-width: 955px) {
+    #filtersContainer{
+        flex-wrap: nowrap;
+        flex-direction: row;
+        align-items: flex-end;
+    }
+    .google-visualization-controls-slider-horizontal{
+        width: 400px;
+    }
+}
+@media (max-width: 954px) {
+    #filtersContainer{
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+    .google-visualization-controls-slider-horizontal{
+        width: 300px;
+    }
+}
+
+div.filterTwo{
+    flex-grow: 3;
+}
+div.filterOne{
+    flex-grow: 0;
+}
+
+@media (max-width: 600px) {
+    div.google-visualization-tooltip{
+        padding: 10px;
+        font-size: inherit;
+        font-family: inherit;
+    }
+}
+@media (min-width: 601px) {
+    div.google-visualization-tooltip{
+        padding: 10px;
+        font-size: 20px;
+        font-family: inherit;
+    }
+}
+span.highlight{
+    border-radius: 3px;
+    padding: 0 5px;
+    box-shadow: #a6a7a6 1px 1px 2px;
+}
+span.percentageFemale{
+    background-color: hotpink;
+}
+
+span.percentageMale{
+    background-color: dodgerblue;
+}
+span.totalParticipation{
+    background-color: #bbbbc2;
+}
+#subjectDashboard{
+    display: flex;
+    width: 100%;
+}
+@media (min-width: 601px) {
+    #subjectDashboard #pieChartContainer{
+        width: 25%;
+    }
+    #subjectDashboard #gradeColumnChartContainer{
+        width: 75%;
+    }
+}
+@media (max-width: 600px) {
+    #subjectDashboard{
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+}
+div.tooltipMaleFemaleStats{
+    padding: 5px 0;
+}
+
+#participationFilterContainer{
+    padding: 5px;
+    margin: 5px;
+}
+
+#genderParticipationGraph{
+    display: flex;
+    align-items: flex-end;
+    width: 100%;
+}
+@media (max-width: 900px) {
+    #genderParticipationGraph{
+        align-items: start;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+}
+#genderParticipationGraph #columnChartContainer{
+    border-color: whitesmoke;
+    border-style: double;
+}
+@media (min-width: 901px) {
+    #genderParticipationGraph #homepageDashboard{
+        width: 75%;
+    }
+    #genderParticipationGraph #columnChartContainer{
+        border-width: 0 1px 0 0;
+    }
+    #genderParticipationGraph #homepagePieChartContainer{
+        width: 25%;
+    }
+}
+@media (max-width: 900px) {
+    #genderParticipationGraph #homepageDashboard{
+        width: 100%;
+    }
+    #genderParticipationGraph #columnChartContainer{
+        border-width: 0 0 1px 0;
+    }
+    #genderParticipationGraph #homepagePieChartContainer{
+        width: 100%;
+    }
+}
+span.infoIcon {
+    font-family: "Times New Roman", monospace;
+    border-radius: 55px;
+    background-color: #4286F4;
+    border: 3px solid #000066;
+    color: #000066;
+    font-weight: bolder;
+    padding: 2px 19px;
+    margin: 2px 10px;
+    box-shadow: 1px 1px 8px #000066;
+    font-size: 40px;
+}
+div.infoMessage{
+    background-color: #4286F4;
+    border: 1px solid #000066;
+    box-shadow: 1px 1px 5px #000066;
+    border-radius: 5px;
+    padding: 8px 5px 5px 5px;
+    user-select: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin: 0 0 10px 0;
+}
+
+div.flexGraphsContainer{
+    display: flex;
+
+}
+#switchToGrades{
+    visibility: hidden;
+}
+#gradesColumnChartContainer{
+    width: 100%
+}
+
+td>span.highlight{
+    min-width: 100px;
+}
+td>span.highlight.aStar{
+    background-color: #9aff9a;
+}
+td>span.highlight.A{
+    background-color: #88eb88;
+}
+td>span.highlight.B{
+    background-color: #74d774;
+}
+td>span.highlight.C{
+     background-color: #6cc36c;
+}
+td>span.highlight.D{
+    background-color: #66af66;
+}
+td>span.highlight.E{
+    background-color: #5c9b5c;
+}
+td>span.highlight.U{
+    background-color: #4c874c;
+}
+
+h3.subjectNameTooltip{
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+table.gradesTable td{
+    padding: 2px;
+}
+table.gradesTable th{
+    padding: 4px;
+}
+table.gradesTable td:first-child{
+    text-align: right;
+}
+table.gradesTable th:first-child{
+    border: solid #2F302F;
+    border-width: 0 1px 0 0;
+}

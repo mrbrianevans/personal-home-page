@@ -1,0 +1,75 @@
+#doubleGraphContainer{
+    display: flex;
+    width: 100%;
+    background-color: transparent;
+}
+#scatterChartContainer{
+    width: 49%;
+    box-shadow: 3px 3px 10px #b99f34;
+    border-radius: 10px;
+    margin: 0 2% 0 0;
+}
+#columnChartContainer{
+    width: 49%;
+    box-shadow: 3px 3px 10px #b99f34;
+    border-radius: 10px;
+}
+#tableContainer{
+    margin: 10px 0;
+    box-shadow: 3px 3px 10px #b99f34;
+    border-radius: 10px;
+    display: inline-block;
+    background-color: #ffe755;
+}
+div#newCurrentSuggestion{
+    margin: 5px;
+    padding: 5px;
+}
+span#newCurrent{
+    background-color: #ffe755;
+    border-radius: 4px;
+    font-weight: bolder;
+    padding: 5px;
+    box-shadow: 3px 3px 10px #b99f34;
+    cursor: default;
+}
+
+form{
+    background-color: transparent;
+}
+input{
+    background-color: transparent;
+    color: #2F302F;
+    border-radius: 4px;
+    border: 2px solid #2F302F;
+    font-size: inherit;
+    padding: 4px;
+    outline: none;
+}
+input::placeholder{
+    color: #646464;
+}
+button{
+    background-color: transparent;
+    cursor: pointer;
+    color: #2F302F;
+    border-radius: 4px;
+    border: 2px solid #2F302F;
+    font-size: inherit;
+    padding: 4px;
+    box-shadow: 3px 3px 10px #b99f34;
+    margin: 3px;
+}
+button:hover{
+    background-color: #ffdb45;
+    box-shadow: 1px 1px 5px #9a7d2e;
+}
+input:hover{
+    background-color: #ffe755;
+}
+input:focus{
+    background-color: #ffe755;
+}
+a{
+    border:none;
+}

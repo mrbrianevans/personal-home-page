@@ -1,0 +1,9 @@
+<svg class="arrows" id="expand_arrows" onclick="" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 150">
+    <defs>
+        <style>.arrowPath1,.arrowPath2{fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:5px;}.arrowPath1{fill-rule:evenodd;}
+        </style>
+    </defs>
+    <path class="arrowPath1" d="M82,17,16.81,82.19a1,1,0,0,1-1.64-.69V16.29a1,1,0,0,1,1-1H81.34A1,1,0,0,1,82,17Z"/>
+    <path class="arrowPath1" d="M134.67,68.66v65.21a1,1,0,0,1-1,1H68.5a1,1,0,0,1-.69-1.64L133,68A1,1,0,0,1,134.67,68.66Z"/>
+    <polyline class="arrowPath2" points="15.42 15.58 49.42 49.58 100.42 100.58 134.42 134.58"/>
+</svg>

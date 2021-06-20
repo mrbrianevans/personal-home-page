@@ -1,0 +1,834 @@
+{
+  "6eeeb7baf546dfbc1bcc72641c9c9d3b8c9da623be3a065bfc5b09defae17100": {
+    "name": "Enosh",
+    "place": "",
+    "father": "d19d500660b778d493c936983c2b8364134ba7c183be8bae05ef46f8e25b6dc7",
+    "mother": "",
+    "siblings": [
+      ""
+    ],
+    "mentions": [
+      "Genesis"
+    ],
+    "gender": "male",
+    "otherNames": [
+      ""
+    ],
+    "id": "6eeeb7baf546dfbc1bcc72641c9c9d3b8c9da623be3a065bfc5b09defae17100",
+    "spouses": [
+      ""
+    ]
+  },
+  "7eb2d4d0327765c1ee8608b4dc32537d15110a892bb7446023476e0b5fd45340": {
+    "name": "Kenan",
+    "place": "",
+    "father": "6eeeb7baf546dfbc1bcc72641c9c9d3b8c9da623be3a065bfc5b09defae17100",
+    "mother": "",
+    "siblings": [
+      ""
+    ],
+    "mentions": [
+      "Genesis"
+    ],
+    "gender": "male",
+    "otherNames": [
+      ""
+    ],
+    "id": "7eb2d4d0327765c1ee8608b4dc32537d15110a892bb7446023476e0b5fd45340",
+    "spouses": [
+      ""
+    ]
+  },
+  "40fa6790ae40455d9a00ba2eac4f8a647ff0dba4e02ba4ae48a450f5e4a291ad": {
+    "name": "Mahalalel",
+    "place": "",
+    "father": "7eb2d4d0327765c1ee8608b4dc32537d15110a892bb7446023476e0b5fd45340",
+    "mother": "",
+    "siblings": [
+      ""
+    ],
+    "mentions": [
+      "Genesis"
+    ],
+    "gender": "male",
+    "otherNames": [
+      ""
+    ],
+    "id": "40fa6790ae40455d9a00ba2eac4f8a647ff0dba4e02ba4ae48a450f5e4a291ad",
+    "spouses": [
+      ""
+    ]
+  },
+  "3ecd600676df4db2fdd1bc521f19dad61f33167901b2ff9830392eb20d50b186": {
+    "name": "Jared",
+    "place": "",
+    "father": "40fa6790ae40455d9a00ba2eac4f8a647ff0dba4e02ba4ae48a450f5e4a291ad",
+    "mother": "",
+    "siblings": [
+      ""
+    ],
+    "mentions": [
+      "Genesis"
+    ],
+    "gender": "male",
+    "otherNames": [
+      ""
+    ],
+    "id": "3ecd600676df4db2fdd1bc521f19dad61f33167901b2ff9830392eb20d50b186",
+    "spouses": [
+      ""
+    ]
+  },
+  "dc231471d90104c4d13f09a7e001a7402dfaebd4117cac3db0b3378250437af7": {
+    "name": "Enoch",
+    "place": "",
+    "father": "3ecd600676df4db2fdd1bc521f19dad61f33167901b2ff9830392eb20d50b186",
+    "mother": "",
+    "siblings": [
+      ""
+    ],
+    "mentions": [
+      "Genesis"
+    ],
+    "gender": "male",
+    "otherNames": [
+      ""
+    ],
+    "id": "dc231471d90104c4d13f09a7e001a7402dfaebd4117cac3db0b3378250437af7",
+    "spouses": [
+      ""
+    ]
+  },
+  "609fc8c44b960f41f646c2c01ad61b95dc7541c25bc3fae055b3e07f584d1e72": {
+    "name": "Methuselah",
+    "place": "",
+    "father": "dc231471d90104c4d13f09a7e001a7402dfaebd4117cac3db0b3378250437af7",
+    "mother": "",
+    "siblings": [
+      ""
+    ],
+    "mentions": [
+      "Genesis"
+    ],
+    "gender": "male",
+    "otherNames": [
+      ""
+    ],
+    "id": "609fc8c44b960f41f646c2c01ad61b95dc7541c25bc3fae055b3e07f584d1e72",
+    "spouses": [
+      ""
+    ]
+  },
+  "ca628f6efe110db63fa93a05f8952c3ca2fe0ff7f53aec139453fe336e9d4b15": {
+    "name": "Lamech",
+    "place": "",
+    "father": "609fc8c44b960f41f646c2c01ad61b95dc7541c25bc3fae055b3e07f584d1e72",
+    "mother": "",
+    "siblings": [
+      ""
+    ],
+    "mentions": [
+      "Genesis"
+    ],
+    "gender": "male",
+    "otherNames": [
+      ""
+    ],
+    "id": "ca628f6efe110db63fa93a05f8952c3ca2fe0ff7f53aec139453fe336e9d4b15",
+    "spouses": [
+      ""
+    ]
+  },
+  "62167912ae0212d2f8893fc002d97ee20b964d9afb9d6a93d070528baecaedcb": {
+    "name": "Noah",
+    "place": "",
+    "father": "ca628f6efe110db63fa93a05f8952c3ca2fe0ff7f53aec139453fe336e9d4b15",
+    "mother": "",
+    "siblings": [
+      ""
+    ],
+    "mentions": [
+      "Genesis"
+    ],
+    "gender": "male",
+    "otherNames": [
+      ""
+    ],
+    "id": "62167912ae0212d2f8893fc002d97ee20b964d9afb9d6a93d070528baecaedcb",
+    "spouses": [
+      ""
+    ]
+  },
+  "b71c63b742219d4c5de1c5ff238d3fc01a5bcf7fa157ce5941d625ae98dd0e04": {
+    "name": "Enoch",
+    "place": "Nod",
+    "father": "7941e85ace4227d5caec717ddb9a8d9e6e702df647802300bc22f3440c2a82c2",
+    "mother": "",
+    "siblings": [
+      ""
+    ],
+    "mentions": [
+      "Genesis"
+    ],
+    "gender": "male",
+    "otherNames": [
+      ""
+    ],
+    "id": "b71c63b742219d4c5de1c5ff238d3fc01a5bcf7fa157ce5941d625ae98dd0e04",
+    "spouses": [
+      ""
+    ]
+  },
+  "c8acc57be33a80bbc96f90db259a63044052c0cd149457249f1e5aa5ca286c87": {
+    "name": "Irad",
+    "place": "",
+    "father": "b71c63b742219d4c5de1c5ff238d3fc01a5bcf7fa157ce5941d625ae98dd0e04",
+    "mother": "",
+    "siblings": [
+      ""
+    ],
+    "mentions": [
+      "Genesis"
+    ],
+    "gender": "male",
+    "otherNames": [
+      ""
+    ],
+    "id": "c8acc57be33a80bbc96f90db259a63044052c0cd149457249f1e5aa5ca286c87",
+    "spouses": [
+      ""
+    ]
+  },
+  "56983b1e5046b2566540b152a84d9aafb3fccf3752d7e1aeb74889d9b70ccdac": {
+    "name": "Mehujael",
+    "place": "",
+    "father": "c8acc57be33a80bbc96f90db259a63044052c0cd149457249f1e5aa5ca286c87",
+    "mother": "",
+    "siblings": [
+      ""
+    ],
+    "mentions": [
+      "Genesis"
+    ],
+    "gender": "male",
+    "otherNames": [
+      ""
+    ],
+    "id": "56983b1e5046b2566540b152a84d9aafb3fccf3752d7e1aeb74889d9b70ccdac",
+    "spouses": [
+      ""
+    ]
+  },
+  "dc6a8e2225ebd2791e62a49234ad8a8427a760160193851c90edcd592ac719aa": {
+    "name": "Methushael",
+    "place": "",
+    "father": "56983b1e5046b2566540b152a84d9aafb3fccf3752d7e1aeb74889d9b70ccdac",
+    "mother": "",
+    "siblings": [
+      ""
+    ],
+    "mentions": [
+      "Genesis"
+    ],
+    "gender": "male",
+    "otherNames": [
+      ""
+    ],
+    "id": "dc6a8e2225ebd2791e62a49234ad8a8427a760160193851c90edcd592ac719aa",
+    "spouses": [
+      ""
+    ]
+  },
+  "005a1bbfc8a10679682582adbe555e047c85b6095be7925caa80edba1b91a698": {
+    "name": "Lamech",
+    "place": "",
+    "father": "dc6a8e2225ebd2791e62a49234ad8a8427a760160193851c90edcd592ac719aa",
+    "mother": "",
+    "siblings": [
+      ""
+    ],
+    "mentions": [
+      "Genesis"
+    ],
+    "gender": "male",
+    "otherNames": [
+      ""
+    ],
+    "id": "005a1bbfc8a10679682582adbe555e047c85b6095be7925caa80edba1b91a698",
+    "spouses": [
+      "Adah",
+      "Zillah"
+    ]
+  },
+  "c5c833b483066bcbe1b65548c0cef234e26447c6b290bd76b9b057a2601116e3": {
+    "name": "Zillah",
+    "place": "",
+    "father": "",
+    "mother": "",
+    "siblings": [
+      ""
+    ],
+    "mentions": [
+      "Genesis"
+    ],
+    "gender": "female",
+    "otherNames": [
+      ""
+    ],
+    "id": "c5c833b483066bcbe1b65548c0cef234e26447c6b290bd76b9b057a2601116e3",
+    "spouses": [
+      "Lamech"
+    ]
+  },
+  "d669e9c6faa965a80ba21d9e6fd22a3966cbf0cbf2bfe93920a71c4d4429e6a2": {
+    "name": "Adah",
+    "place": "",
+    "father": "",
+    "mother": "",
+    "siblings": [
+      ""
+    ],
+    "mentions": [
+      "Genesis"
+    ],
+    "gender": "female",
+    "otherNames": [
+      ""
+    ],
+    "id": "d669e9c6faa965a80ba21d9e6fd22a3966cbf0cbf2bfe93920a71c4d4429e6a2",
+    "spouses": [
+      ""
+    ]
+  },
+  "d02eeef119c8a82cf21fc05cd43a44a78182cdd46e9dfecda7d03bb1eea7db6a": {
+    "name": "Jubal",
+    "place": "",
+    "father": "005a1bbfc8a10679682582adbe555e047c85b6095be7925caa80edba1b91a698",
+    "mother": "d669e9c6faa965a80ba21d9e6fd22a3966cbf0cbf2bfe93920a71c4d4429e6a2",
+    "siblings": [
+      "Jabal"
+    ],
+    "mentions": [
+      "Genesis"
+    ],
+    "gender": "male",
+    "otherNames": [
+      ""
+    ],
+    "id": "d02eeef119c8a82cf21fc05cd43a44a78182cdd46e9dfecda7d03bb1eea7db6a",
+    "spouses": [
+      ""
+    ]
+  },
+  "d57f075068b06c1c8f4f3fb5765eb0cefb2d4b8d304a5affcdf966b0e59a4313": {
+    "name": "Tubal-cain",
+    "place": "",
+    "father": "005a1bbfc8a10679682582adbe555e047c85b6095be7925caa80edba1b91a698",
+    "mother": "c5c833b483066bcbe1b65548c0cef234e26447c6b290bd76b9b057a2601116e3",
+    "siblings": [
+      "Naamah"
+    ],
+    "mentions": [
+      "Genesis"
+    ],
+    "gender": "male",
+    "otherNames": [
+      ""
+    ],
+    "id": "d57f075068b06c1c8f4f3fb5765eb0cefb2d4b8d304a5affcdf966b0e59a4313",
+    "spouses": [
+      ""
+    ]
+  },
+  "fe62793342f1fdaa29b51ea08e6a465f27f9192688a26e24a8a90fd919dd3a5b": {
+    "name": "Shem",
+    "place": "",
+    "father": "62167912ae0212d2f8893fc002d97ee20b964d9afb9d6a93d070528baecaedcb",
+    "mother": "",
+    "siblings": [
+      "Ham",
+      "Japheth"
+    ],
+    "mentions": [
+      "Genesis"
+    ],
+    "gender": "male",
+    "otherNames": [
+      ""
+    ],
+    "id": "fe62793342f1fdaa29b51ea08e6a465f27f9192688a26e24a8a90fd919dd3a5b",
+    "spouses": [
+      ""
+    ]
+  },
+  "3c009d5ac1107a409a1a0ae1739a493aac2efe3f917328740aaad014e4caa5ce": {
+    "name": "Ham",
+    "place": "",
+    "father": "62167912ae0212d2f8893fc002d97ee20b964d9afb9d6a93d070528baecaedcb",
+    "mother": "",
+    "siblings": [
+      "Shem",
+      "Japheth"
+    ],
+    "mentions": [
+      "Genesis"
+    ],
+    "gender": "male",
+    "otherNames": [
+      ""
+    ],
+    "id": "3c009d5ac1107a409a1a0ae1739a493aac2efe3f917328740aaad014e4caa5ce",
+    "spouses": [
+      ""
+    ]
+  },
+  "4f4fc70c118c78f99ba487dd849257fb525da49324508e62e392d2012cbd365c": {
+    "name": "Japheth",
+    "place": "",
+    "father": "62167912ae0212d2f8893fc002d97ee20b964d9afb9d6a93d070528baecaedcb",
+    "mother": "",
+    "siblings": [
+      "Ham",
+      "Shem"
+    ],
+    "mentions": [
+      "Genesis"
+    ],
+    "gender": "male",
+    "otherNames": [
+      ""
+    ],
+    "id": "4f4fc70c118c78f99ba487dd849257fb525da49324508e62e392d2012cbd365c",
+    "spouses": [
+      ""
+    ]
+  },
+  "8a1bbb199181bbf8e3f4b0f2925d99e12618b429c76f147e3f364a87d707288a": {
+    "name": "Canaan",
+    "place": "",
+    "father": "3c009d5ac1107a409a1a0ae1739a493aac2efe3f917328740aaad014e4caa5ce",
+    "mother": "",
+    "siblings": [
+      "Cush",
+      "Egypt",
+      "Put",
+      "Canaan"
+    ],
+    "mentions": [
+      "Genesis"
+    ],
+    "gender": "male",
+    "otherNames": [
+      ""
+    ],
+    "id": "8a1bbb199181bbf8e3f4b0f2925d99e12618b429c76f147e3f364a87d707288a",
+    "spouses": [
+      ""
+    ]
+  },
+  "39ae59eaed2e9189039e2e5e634da846e7fc7f6747af7a93d3a1078a92294e7e": {
+    "name": "Cush",
+    "place": "",
+    "father": "3c009d5ac1107a409a1a0ae1739a493aac2efe3f917328740aaad014e4caa5ce",
+    "mother": "",
+    "siblings": [
+      ""
+    ],
+    "mentions": [
+      "Genesis"
+    ],
+    "gender": "male",
+    "otherNames": [
+      ""
+    ],
+    "id": "39ae59eaed2e9189039e2e5e634da846e7fc7f6747af7a93d3a1078a92294e7e",
+    "spouses": [
+      ""
+    ]
+  },
+  "1976d21ecb29e1c4dbaacdfe6c4310b00546fb5d5f34f44ca4b26bea83f74328": {
+    "name": "Egypt",
+    "place": "",
+    "father": "3c009d5ac1107a409a1a0ae1739a493aac2efe3f917328740aaad014e4caa5ce",
+    "mother": "",
+    "siblings": [
+      ""
+    ],
+    "mentions": [
+      "Genesis"
+    ],
+    "gender": "male",
+    "otherNames": [
+      ""
+    ],
+    "id": "1976d21ecb29e1c4dbaacdfe6c4310b00546fb5d5f34f44ca4b26bea83f74328",
+    "spouses": [
+      ""
+    ]
+  },
+  "7bf61ff82cd790882b989711c093039a1095ccf3b684fafd84d809d1043fd497": {
+    "name": "Put",
+    "place": "",
+    "father": "3c009d5ac1107a409a1a0ae1739a493aac2efe3f917328740aaad014e4caa5ce",
+    "mother": "",
+    "siblings": [
+      ""
+    ],
+    "mentions": [
+      "Genesis"
+    ],
+    "gender": "male",
+    "otherNames": [
+      ""
+    ],
+    "id": "7bf61ff82cd790882b989711c093039a1095ccf3b684fafd84d809d1043fd497",
+    "spouses": [
+      ""
+    ]
+  },
+  "a6735a59f5e405d3dd5aa39d6e646a7f6f8038ff0420860e8dab8f253b0b5ccb": {
+    "name": "Havilah",
+    "place": "",
+    "father": "39ae59eaed2e9189039e2e5e634da846e7fc7f6747af7a93d3a1078a92294e7e",
+    "mother": "",
+    "siblings": [
+      ""
+    ],
+    "mentions": [
+      "Genesis"
+    ],
+    "gender": "male",
+    "otherNames": [
+      ""
+    ],
+    "id": "a6735a59f5e405d3dd5aa39d6e646a7f6f8038ff0420860e8dab8f253b0b5ccb",
+    "spouses": [
+      ""
+    ]
+  },
+  "66eda847e21011aa10dd39d300a4d50a5617f3aeb05df77ea0d39cbb573eba6b": {
+    "name": "Sabteca",
+    "place": "",
+    "father": "39ae59eaed2e9189039e2e5e634da846e7fc7f6747af7a93d3a1078a92294e7e",
+    "mother": "",
+    "siblings": [
+      ""
+    ],
+    "mentions": [
+      "Genesis"
+    ],
+    "gender": "male",
+    "otherNames": [
+      ""
+    ],
+    "id": "66eda847e21011aa10dd39d300a4d50a5617f3aeb05df77ea0d39cbb573eba6b",
+    "spouses": [
+      ""
+    ]
+  },
+  "0f0a72c2f325f5b2238eccd818a4300a21c4129829abcd445dea21c7571fb106": {
+    "name": "Seba",
+    "place": "",
+    "father": "39ae59eaed2e9189039e2e5e634da846e7fc7f6747af7a93d3a1078a92294e7e",
+    "mother": "",
+    "siblings": [
+      ""
+    ],
+    "mentions": [
+      "Genesis"
+    ],
+    "gender": "male",
+    "otherNames": [
+      ""
+    ],
+    "id": "0f0a72c2f325f5b2238eccd818a4300a21c4129829abcd445dea21c7571fb106",
+    "spouses": [
+      ""
+    ]
+  },
+  "70595ab80382b1ee0a02b5a50d5ca1cac6d0f737124528783e88bc613a761293": {
+    "name": "Sabtah",
+    "place": "",
+    "father": "39ae59eaed2e9189039e2e5e634da846e7fc7f6747af7a93d3a1078a92294e7e",
+    "mother": "",
+    "siblings": [
+      ""
+    ],
+    "mentions": [
+      "Genesis"
+    ],
+    "gender": "male",
+    "otherNames": [
+      ""
+    ],
+    "id": "70595ab80382b1ee0a02b5a50d5ca1cac6d0f737124528783e88bc613a761293",
+    "spouses": [
+      ""
+    ]
+  },
+  "1abb3eafe62323fc807a21e96ca93175a901d811e29003df76f9611e65eddd5f": {
+    "name": "Raamah",
+    "place": "",
+    "father": "39ae59eaed2e9189039e2e5e634da846e7fc7f6747af7a93d3a1078a92294e7e",
+    "mother": "",
+    "siblings": [
+      ""
+    ],
+    "mentions": [
+      "Genesis"
+    ],
+    "gender": "male",
+    "otherNames": [
+      ""
+    ],
+    "id": "1abb3eafe62323fc807a21e96ca93175a901d811e29003df76f9611e65eddd5f",
+    "spouses": [
+      ""
+    ]
+  },
+  "0332ee45f0e68c977367ab1e42b357b1e29ac2eb041dbbf6b1542f035abdcc43": {
+    "name": "Sheba",
+    "place": "",
+    "father": "1abb3eafe62323fc807a21e96ca93175a901d811e29003df76f9611e65eddd5f",
+    "mother": "",
+    "siblings": [
+      ""
+    ],
+    "mentions": [
+      "Genesis"
+    ],
+    "gender": "male",
+    "otherNames": [
+      ""
+    ],
+    "id": "0332ee45f0e68c977367ab1e42b357b1e29ac2eb041dbbf6b1542f035abdcc43",
+    "spouses": [
+      ""
+    ]
+  },
+  "622e2ad85184b6c3aecfcd4637756c928550738cc8996ceab3fcd79b5e863cfc": {
+    "name": "Dedan",
+    "place": "",
+    "father": "1abb3eafe62323fc807a21e96ca93175a901d811e29003df76f9611e65eddd5f",
+    "mother": "",
+    "siblings": [
+      ""
+    ],
+    "mentions": [
+      "Genesis"
+    ],
+    "gender": "male",
+    "otherNames": [
+      ""
+    ],
+    "id": "622e2ad85184b6c3aecfcd4637756c928550738cc8996ceab3fcd79b5e863cfc",
+    "spouses": [
+      ""
+    ]
+  },
+  "2d7f9cebc944b36ecfdb4351b05f69900c6dbe67bfd2c34e862dfcef59f121f7": {
+    "name": "Nimrod",
+    "place": "",
+    "father": "39ae59eaed2e9189039e2e5e634da846e7fc7f6747af7a93d3a1078a92294e7e",
+    "mother": "",
+    "siblings": [
+      ""
+    ],
+    "mentions": [
+      "Genesis"
+    ],
+    "gender": "male",
+    "otherNames": [
+      ""
+    ],
+    "id": "2d7f9cebc944b36ecfdb4351b05f69900c6dbe67bfd2c34e862dfcef59f121f7",
+    "spouses": [
+      ""
+    ]
+  },
+  "b6003051f576adb947fa1e506f3acd4c60d145a3a6ba893d07327a56c8a745c3": {
+    "name": "Adam",
+    "place": "Eden",
+    "father": "",
+    "mother": "",
+    "siblings": [
+      ""
+    ],
+    "mentions": [
+      "Genesis 2:20"
+    ],
+    "gender": "male",
+    "otherNames": [
+      ""
+    ],
+    "id": "b6003051f576adb947fa1e506f3acd4c60d145a3a6ba893d07327a56c8a745c3",
+    "spouses": [
+      ""
+    ]
+  },
+  "e94bff8923def8fac253e26af64a555803481375c17e39cd21eeedbbbac7acfa": {
+    "name": "Eve",
+    "place": "Eden",
+    "father": "",
+    "mother": "",
+    "siblings": [
+      ""
+    ],
+    "mentions": [
+      "Genesis 3:20"
+    ],
+    "gender": "female",
+    "otherNames": [
+      ""
+    ],
+    "id": "e94bff8923def8fac253e26af64a555803481375c17e39cd21eeedbbbac7acfa",
+    "spouses": [
+      ""
+    ]
+  },
+  "5ff660c3c2f00d9728f9939696b5a7827f6286b490ffacc2e30e92c800d833bc": {
+    "name": "Cain",
+    "place": "Eden",
+    "father": "f4d8304bcbe57842b1b17379ef1363135f309361b77d1c3ab75e90bb63ca1c26",
+    "mother": "dc2c74cd5d73baf6f93a010ccf705fecf338233a00519cbab66a72a2f7515ca8",
+    "siblings": [
+      "Abel"
+    ],
+    "mentions": [
+      "Genesis 4:1"
+    ],
+    "gender": "male",
+    "otherNames": [
+      ""
+    ],
+    "id": "5ff660c3c2f00d9728f9939696b5a7827f6286b490ffacc2e30e92c800d833bc",
+    "spouses": [
+      ""
+    ]
+  },
+  "91fddfb1fed5d929ec1464852d26a191c04bf5906aba606437a80a830f5f2d6b": {
+    "name": "Abel",
+    "place": "Eden",
+    "father": "f4d8304bcbe57842b1b17379ef1363135f309361b77d1c3ab75e90bb63ca1c26",
+    "mother": "dc2c74cd5d73baf6f93a010ccf705fecf338233a00519cbab66a72a2f7515ca8",
+    "siblings": [
+      "Cain"
+    ],
+    "mentions": [
+      "Genesis 4:2"
+    ],
+    "gender": "male",
+    "otherNames": [
+      ""
+    ],
+    "id": "91fddfb1fed5d929ec1464852d26a191c04bf5906aba606437a80a830f5f2d6b",
+    "spouses": [
+      ""
+    ]
+  },
+  "4161bf2b68ddf47d8ec7c6c57cd117645f75b27305b340f3831c9fc74896f1e7": {
+    "name": "Naamah",
+    "place": "",
+    "father": "005a1bbfc8a10679682582adbe555e047c85b6095be7925caa80edba1b91a698",
+    "mother": "c5c833b483066bcbe1b65548c0cef234e26447c6b290bd76b9b057a2601116e3",
+    "siblings": [
+      "Tubal-cain"
+    ],
+    "mentions": [
+      "Genesis 4:22"
+    ],
+    "gender": "female",
+    "otherNames": [
+      ""
+    ],
+    "id": "4161bf2b68ddf47d8ec7c6c57cd117645f75b27305b340f3831c9fc74896f1e7",
+    "spouses": [
+      ""
+    ]
+  },
+  "d85f53f8c3a85d4eeab63576898f96ed53a217a837ea01a1679809711db4dc26": {
+    "name": "Anamim",
+    "place": "",
+    "father": "1976d21ecb29e1c4dbaacdfe6c4310b00546fb5d5f34f44ca4b26bea83f74328",
+    "mother": "",
+    "siblings": [
+      ""
+    ],
+    "mentions": [
+      "Genesis 10:13"
+    ],
+    "gender": "male",
+    "otherNames": [
+      ""
+    ],
+    "id": "d85f53f8c3a85d4eeab63576898f96ed53a217a837ea01a1679809711db4dc26",
+    "spouses": [
+      ""
+    ]
+  },
+  "91b4aa20c3406d2c29c50698f9935ac641d50de106068150edcb23924657dd20": {
+    "name": "Jabal",
+    "place": "",
+    "father": "005a1bbfc8a10679682582adbe555e047c85b6095be7925caa80edba1b91a698",
+    "mother": "d669e9c6faa965a80ba21d9e6fd22a3966cbf0cbf2bfe93920a71c4d4429e6a2",
+    "siblings": [
+      "Jubal"
+    ],
+    "mentions": [
+      "Genesis 4:20"
+    ],
+    "gender": "male",
+    "otherNames": [
+      ""
+    ],
+    "id": "91b4aa20c3406d2c29c50698f9935ac641d50de106068150edcb23924657dd20",
+    "spouses": [
+      ""
+    ]
+  },
+  "3000a4c2a60e0c4dad11d76314a5eeb9f8f11283e937652ca1e8875b54fbb819": {
+    "name": "Ludim",
+    "place": "",
+    "father": "1976d21ecb29e1c4dbaacdfe6c4310b00546fb5d5f34f44ca4b26bea83f74328",
+    "mother": "",
+    "siblings": [
+      "Anamim",
+      "Lehabim",
+      "Pathrusim",
+      "Naphtuhim",
+      "Casluhim",
+      "Caphtorim"
+    ],
+    "mentions": [
+      "Genesis 10:13"
+    ],
+    "gender": "male",
+    "otherNames": [
+      ""
+    ],
+    "id": "3000a4c2a60e0c4dad11d76314a5eeb9f8f11283e937652ca1e8875b54fbb819",
+    "spouses": [
+      ""
+    ]
+  },
+  "d19d500660b778d493c936983c2b8364134ba7c183be8bae05ef46f8e25b6dc7": {
+    "name": "Seth",
+    "place": "",
+    "father": "b6003051f576adb947fa1e506f3acd4c60d145a3a6ba893d07327a56c8a745c3",
+    "mother": "e94bff8923def8fac253e26af64a555803481375c17e39cd21eeedbbbac7acfa",
+    "siblings": [
+      ""
+    ],
+    "mentions": [
+      "Genesis 4:25"
+    ],
+    "gender": "male",
+    "otherNames": [
+      ""
+    ],
+    "id": "d19d500660b778d493c936983c2b8364134ba7c183be8bae05ef46f8e25b6dc7",
+    "spouses": [
+      ""
+    ]
+  }
+}

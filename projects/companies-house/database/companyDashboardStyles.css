@@ -1,0 +1,173 @@
+div.companyHeader{
+    text-align: center;
+}
+div.companyName{
+    font-size: larger;
+    position: relative;
+    cursor: default;
+}
+div.companyName:hover div.companyStatusTooltip{
+    opacity: 1;
+    visibility: visible;
+}
+div.companyStatusTooltip{
+    visibility: hidden;
+    position: absolute;
+    opacity: 0;
+    bottom: 105%;
+    width: 100%;
+    text-align: center;
+    transition: opacity 500ms;
+}
+div.companyIncorporationDate{
+    font-size: small;
+}
+
+div.companyInformation{
+    border: solid #2F302F;
+    box-shadow: 0 0 10px rgba(32, 30, 32, 0.5);
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px auto;
+    width: 90%;
+    font-family: "Tahoma", sans-serif;
+}
+div.generalCompanyInformation{
+    max-width: 80%;
+    padding: 5px;
+}
+div.companyPersonsContainer{
+    border: 4px solid #2F302F;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(32, 30, 32, 0.4);
+    background: linear-gradient(0deg, #ffe895 0%, #c6bf86 100%);
+    padding: 10px;
+    margin: 10px;
+    align-self: flex-end;
+}
+ul.companyPersons{
+    font-family: Constantia, cursive;
+}
+ul.companyPersons>li{
+    margin-left: 15px;
+    border-bottom: dotted #4286F4;
+    list-style: square;
+    font-size: large;
+    line-height: 35px;
+}
+ul.companyPersons>li>a{
+    border: none;
+}
+div.companyAddress{
+    margin-left: auto;
+    margin-right: 0;
+    font-family:   "Courier New", "monospace";
+}
+div.companyBoldTitle{
+    font-weight: bolder;
+}
+div.sicCodes{
+    display: flex;
+}
+
+div.sicCode{
+    border: solid rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    padding: 2px 5px;
+    margin: 3px;
+    position: relative;
+    cursor: default;
+}
+div.companyCategory, tr.companyFinancialRow{
+    position: relative;
+    cursor: default;
+}
+div.sicCode:hover div.sicTooltip, div.companyCategory:hover div.companyCategoryTooltip, tr.companyFinancialRow:hover td.companyFinancialTooltip{
+    opacity: 1;
+    visibility: visible;
+}
+div.sicTooltip, div.companyCategoryTooltip, td.companyFinancialTooltip{
+    visibility: hidden;
+    position: absolute;
+    background-color: rgba(245, 245, 245, 1);
+    opacity: 0;
+    bottom: 105%;
+    left: -200px;
+    width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(32, 30, 32, 0.7);
+    transition: opacity 500ms;
+    text-align: center;
+}
+td.companyFinancialTooltip{
+    padding: 20px 2px;
+    bottom: -100%;
+    left: 50%;
+    box-shadow: 0 0 20px rgba(32, 30, 32, 0.4);
+    background-color: rgba(245, 245, 245, 1);
+}
+span.financialYear{
+    background-color: #646464;
+    border-radius: 3px;
+    padding: 3px;
+    color: #2F302F;
+}
+table.companyInformationTable{
+    border-radius: 5px;
+}
+table.companyInformationTable tr>td{
+    border-radius: 5px;
+    padding: 0 5px 0 0;
+    height: 35px
+}
+table.companyInformationTable tr>td:first-child{
+    font-size: small;
+    font-weight: bold;
+}
+table.companyInformationTable tr>td:last-child{
+    background-color: rgba(245, 245, 245, 0.8);
+    text-align: right;
+    padding-left: 5px;
+}
+table.companyFinancialTable{
+
+}
+table.companyFinancialTable tr>td:first-child{
+    font-size: small;
+    background-color: unset;
+    padding-left: 0;
+    max-width: 400px;
+}
+table.companyFinancialTable tr>td:nth-child(3){
+    background-color: rgba(245, 245, 245, 0.6);
+}
+table.companyFinancialTable tr>td:nth-child(4){
+    background-color: rgba(245, 245, 245, 0.5);
+}
+table.companyFinancialTable tr>td:nth-child(5){
+    background-color: rgba(245, 245, 245, 0.4);
+}
+table.companyFinancialTable tr>td:nth-child(6){
+    background-color: rgba(245, 245, 245, 0.35);
+}
+table.companyFinancialTable tr>td:nth-child(7){
+    background-color: rgba(245, 245, 245, 0.3);
+}
+table.companyFinancialTable td{
+    border-radius: 5px;
+    padding: 0 5px 0 0;
+    height: 35px;
+    background-color: rgba(245, 245, 245, 0.8);
+    text-align: right;
+    padding-left: 5px;
+}
+td a {
+    color: #2F302F;
+    border-color: #2F302F;
+}
+div.companyResponseTime{
+    text-align: right;
+    font-size: smaller;
+    color: #2F302F;
+}

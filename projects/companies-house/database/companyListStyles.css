@@ -1,0 +1,37 @@
+div.companyListContainer{
+    border: solid #2F302F;
+    border-width: 1px 0 0 0;
+}
+div.companyContainer{
+    margin: 15px 0;
+    padding: 15px 0;
+    border: solid #2F302F;
+    border-width: 0 0 1px 0;
+}
+div.companyResponseTime{
+    position: absolute;
+    visibility: hidden;
+}
+div.companyListResponseTime{
+    text-align: right;
+    font-size: smaller;
+    color: #2F302F;
+}
+table.companyList{
+    border-collapse: collapse;
+}
+table.companyList td{
+    border: solid #2F302F;
+    border-width: 1px 0;
+}
+table.companyList th{
+    padding: 4px;
+    border: solid #2F302F;
+    border-width: 0 1px;
+}
+table.companyList tr{
+    background: linear-gradient(90deg, rgba(245, 245, 245, 0.9) 0%, rgba(245, 245, 245, 0.5) 100%);
+}
+table.companyList tr:hover{
+    background: linear-gradient(90deg, rgba(245, 245, 245, 0.9) 0%, rgba(245, 245, 245, 1) 100%);
+}

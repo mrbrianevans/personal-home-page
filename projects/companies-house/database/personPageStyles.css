@@ -1,0 +1,39 @@
+div.personDetailSummary{
+    border-left: 4px solid crimson;
+    padding-left: 20px;
+    position: relative;
+    width: 400px;
+}
+div.personDetailSummary:hover div.personDetailsTooltip{
+    opacity: 1;
+    visibility: visible;
+}
+div.personDetailsTooltip{
+    visibility: hidden;
+    position: absolute;
+    background-color: rgba(245, 245, 245, 1);
+    opacity: 0;
+    bottom: -50%;
+    left: 105%;
+    width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(32, 30, 32, 0.7);
+    transition: opacity 500ms;
+}
+div.personDetailsTooltip>h3{
+    text-align: center;
+}
+div.personDetailsTooltip>ul{
+    list-style: outside;
+    margin-left: 20px;
+}
+div.personDetailsShell{
+    background: rgba(245, 245, 245, 0.3) linear-gradient(0deg, rgba(245, 245, 245, 0) 5%, rgba(245, 245, 245, 1) 100%);
+    padding: 10px;
+    width: fit-content;
+    transition: background-color 1000ms;
+}
+div.personDetailsTooltip:hover div.personDetailsShell{
+    background-color: rgba(245, 245, 245, 1);
+}

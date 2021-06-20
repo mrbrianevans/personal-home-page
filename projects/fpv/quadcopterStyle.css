@@ -1,0 +1,185 @@
+#wholeDashboard{
+}
+
+#userDetails{
+    padding: 20px;
+    margin: 1%;
+    background: #ffe755;
+    border-radius: 15px;
+    box-shadow: 0 0 15px #ba9d33;
+    animation-name: shrinkingBorderRadius;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    white-space: nowrap;
+}
+@keyframes shrinkingBorderRadius {
+    from{
+        border-radius: 0;
+        background-color: #ffe755;
+        max-width: 50%;
+    }
+    to{
+        border-radius: 15px;
+        background-color: #ffe755;
+        max-width: 100%;
+    }
+}
+#quadDashboard{
+    background-color: #ffe755;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1%;
+    border-radius: 15px;
+    box-shadow: 0 0 15px #ba9d33;
+    animation-name: shrinkingBorderRadius;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+}
+@keyframes dropShadow{
+    from{
+        box-shadow: 10px 10px 50px #979897;
+        width: 500px;
+        height: 500px;
+    }
+    to{
+        box-shadow: 0 0 15px #686968;
+        width: 28%;
+        height: 300px;
+    }
+}
+div.quadPanel {
+    background-color: navajowhite;
+    border: 3px solid whitesmoke;
+    margin: 1%;
+    padding: 1%;
+    width: 28%;
+    min-width: 410px;
+    max-width: 96%;
+    height: 300px;
+    font-size: medium;
+    border-radius: 5px;
+    box-shadow: 0 0 15px #baa345;
+    animation-duration: 1s;
+    animation-name: dropShadow;
+    animation-timing-function: ease-out;
+}
+div.largePanel.quadPanel{
+    width: 100%;
+    font-size: xx-large;
+}
+div.largePanel.quadPanel meter{
+    height: 50px;
+    width: 200px;
+}
+@keyframes fadeDarkenPlus{
+    from{
+        background-color: palegreen;
+    }
+    to{
+        background-color: #43F472;
+    }
+}
+#plus{
+    font-size: 200px;
+    text-align: center;
+    background-color: palegreen;
+}
+#plus:hover{
+    cursor: pointer;
+    user-select: none;
+    box-shadow: 0 0 25px #62c462;
+}
+
+input{
+    width: auto;
+}
+#submitNewQuadButton{
+    width: 43%;
+}
+#submitNewQuadButton:focus{
+    background-color: #646464;
+}
+#cancelButton{
+    width: 43%;
+}
+
+#fantasyButton{
+    background-color: #ffc3be;
+    border-bottom-left-radius: 3px;
+    border-top-left-radius: 3px;
+    color: #2F302F;
+}
+#fantasyButton:hover{
+    background-color: #f07e7e;
+    color: black;
+}
+
+#realQuadButton{
+    background-color: #c4ffca;
+    border-bottom-right-radius: 3px;
+    border-top-right-radius: 3px;
+    color: #2F302F;
+}
+#realQuadButton:hover{
+    background-color: #7dfb7c;
+    color: black;
+}
+
+#newQuadForm input{
+    color: ghostwhite;
+}
+#newQuadForm input::placeholder{
+    color: #9e9ea5;
+}
+
+svg.quadcopter{
+    width: 100%;
+}
+@keyframes arrowAppear {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 100%;
+    }
+}
+svg.arrows{
+    width: 30px;
+    height: 30px;
+    float: right;
+    opacity: 0;
+}
+svg.arrows:hover{
+    cursor: pointer;
+}
+div.quadComponentText{
+    border: 1px solid transparent;
+    user-select: none;
+}
+div.svgContainer{
+    float: left;
+    width: 40%;
+
+}
+div.componentsContainer{
+    display: flex;
+}
+div.real{
+    background-color: palegreen;
+}
+div.fantasy{
+    background-color: lightcoral;
+}
+meter{
+    width: 50px;
+    max-width: available;
+    float: right;
+    height: 25px;
+    max-height: available;
+    margin: 0;
+    padding: 0;
+}
+
+dialog.error{
+    background-color: indianred;
+}

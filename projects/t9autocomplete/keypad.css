@@ -1,0 +1,78 @@
+#keypad{
+    background-color: navajowhite;
+    color: navy;
+    padding: 10px;
+    border-collapse: separate;
+    font-family: "Arial Black", sans-serif;
+    width: 100%;
+}
+#keypad td{
+    border: 2px solid navy;
+    width: 33.3%;
+    padding: 20px;
+}
+#keypad td:hover{
+    cursor: pointer;
+    background-color: navy;
+    border: 2px solid navajowhite;
+    color: navajowhite;
+}
+div.numberKey{
+    font-size: large;
+    padding: 10px;
+}
+
+div.lettersKey{
+    font-size: smaller;
+}
+div.key{
+    margin: auto;
+    text-align: center;
+    user-select: none;
+}
+
+#backspace{
+    background-color: navajowhite;
+    font-family: "Arial Black", sans-serif;
+    color: navy;
+    padding: 10px 0;
+    height: 100px;
+    width: 99%;
+    border: 2px solid navy;
+}
+#backspace:hover{
+    cursor: pointer;
+    background-color: navy;
+    border: 2px solid navajowhite;
+    color: navajowhite;
+}
+#keypadArea{
+    width: 30%;
+    min-width: 300px;
+}
+
+#input{
+    background-color: navajowhite;
+    font-family: "Arial Black", sans-serif;
+    color: navy;
+    padding: 10px;
+    height: 100px;
+    width: 30%;
+    min-width: 300px;
+    border: 2px solid navy;
+    font-size: xx-large;
+}
+#input::placeholder{
+    color: #1f1f1f;
+}
+
+#predictionWord{
+    background-color: navajowhite;
+    font-family: "Arial Black", sans-serif;
+    color: red;
+    padding: 10px 20px;
+    height: 100px;
+    min-width: 150px;
+    border: 2px solid navy;
+    font-size: xx-large;
+}

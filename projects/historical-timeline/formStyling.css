@@ -1,0 +1,86 @@
+form{
+    background-color: transparent;
+}
+input,select,button,textarea{
+    background-color: transparent;
+    color: #2F302F;
+    border-radius: 4px;
+    border: 2px solid #2F302F;
+    font-size: inherit;
+    padding: 4px;
+    outline: none;
+    font-family: "Tahoma", sans-serif;
+}
+input::placeholder{
+    color: #646464;
+}
+button{
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.3);
+    margin: 3px;
+    cursor: pointer;
+}
+button:hover,input:hover,select:hover,textarea:hover{
+    background-color: rgba(245, 245, 245, 0.2);
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+input:focus,select:focus,textarea:focus{
+    background-color: rgba(245, 245, 245, 0.4);
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.4);
+}
+form.inlineForm{
+    display: inline-block;
+}
+button.wide{
+    padding: 5px 75px;
+}
+
+input.material-text-box{
+    font-size: xx-large;
+    border-width: 0;
+    border-bottom: solid 2px;
+    border-color: rgba(0, 0, 0, 0.3);
+    background-color: transparent;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    box-shadow: none;
+}
+input.material-text-box:hover{
+    border-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.05);
+    box-shadow: none;
+}
+input.material-text-box:focus{
+    border-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.2);
+    box-shadow: none;
+}
+input.material-text-box::placeholder{
+    color: rgba(0, 0, 0, 0.3);
+}
+input.material-text-box:hover::placeholder{
+    color: rgba(0, 0, 0, 0.5);
+}
+input.material-text-box:focus::placeholder{
+    color: rgba(0, 0, 0, 0);
+}
+
+button.yellow{
+    background-color: rgba(245, 209, 66, 1);
+    box-shadow: none;
+    transition: border-color 0.5s ease;
+    border-color: transparent;
+}
+button.yellow:hover, button.yellow:focus{
+    border-color: #2F302F;
+    box-shadow: none;
+}
+button.delete{
+    border: none;
+    background-color: rgba(255, 0, 0, 0);
+    box-shadow: none;
+    transition: background-color 0.5s ease;
+}
+button.delete:hover, button.delete:hover:focus{
+    background-color: rgba(255, 0, 0, 0.4);
+    box-shadow: none;
+}

@@ -1,0 +1,134 @@
+#pressEnterMessage{
+    color: #2F302F;
+}
+#pressEnterMessage:hover{
+    opacity: 0;
+}
+
+div.subjectBox{
+    border: solid rgba(245,245,245,0.7);
+    border-width: 3px 0 0 0;
+    padding: 0 0 10px 0;
+    margin: 2px;
+}
+div.subjectBox:first-child{
+    border-width: 0;
+}
+div.courseBox{
+    border: 1px solid whitesmoke;
+    background-color: rgba(245,245,245,0.5);
+    padding: 10px;
+    margin: 5px;
+    box-shadow: #ad9b3b 0 0 10px;
+}
+h3.courseName{
+    text-align: center;
+    margin: 8px 2px;
+}
+div.assessmentBox{
+    padding: 10px;
+    margin: 2px;
+}
+div.subjectAverageTotal{
+}
+div.subjectAverageAchieved{
+    background: rgba(245,245,245,0.7);
+    text-align: right;
+    padding: 0 5px 0 0;
+}
+span.subjectName{
+    position: absolute;
+    margin: 0 0 0 5px;
+    font-weight: bolder;
+}
+button{
+    padding: 5px 50px;
+    margin: 5px;
+    border-radius: 45px;
+    color: #ffe755;
+    border: 1px solid whitesmoke;
+    outline: none;
+}
+input{
+    color: #ffe755;
+    border: 1px solid whitesmoke;
+    padding: 5px 30px;
+    margin: 5px;
+    border-radius: 45px;
+    outline: none;
+    max-width: 100%;
+
+}
+input::placeholder{
+    color: #ffe755;
+}
+button:disabled{
+    color: #646464;
+}
+button:hover{
+    background-color: #1f1f1f;
+    cursor: pointer;
+}
+button:focus{
+    background-color: #1f1f1f;
+}
+button:disabled:hover{
+    background-color: #2F302F;
+    cursor: default;
+}
+
+input.markEntry{
+    padding: 2px;
+    margin: 2px;
+    max-width: 30px;
+    width: 20px;
+    text-align: center;
+    min-width: 10px;
+    background-color: #ffe755;
+    color: #2F302F;
+    border-color: #2F302F;
+}
+input.markEntry::placeholder{
+    color: #484948;
+}
+svg.deleteIcon{
+    width: 20px;
+    height: 18px;
+}
+button.deleteButton{
+    width: 25px;
+    padding: 3px 0 0 0;
+    position: relative;
+    display: inline-block;
+}
+button.deleteButton:hover span.deleteTooltip{
+    opacity: 1;
+    visibility: visible;
+}
+span.deleteTooltip{
+    position: absolute;
+    z-index: 1;
+    opacity: 0;
+    visibility: hidden;
+    background-color: #2F302F;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+    bottom: 105%;
+    left: 50%;
+    margin-left: -50px;
+    width: 100px;
+    transition: opacity 500ms;
+}
+
+@media (max-width: 600px){
+    input{
+        padding: 5px 10px;
+        width: available;
+        max-width: 100%;
+        display: block;
+    }
+    input.markEntry{
+        display: inline;
+    }
+}

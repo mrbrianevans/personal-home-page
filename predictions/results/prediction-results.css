@@ -1,0 +1,24 @@
+h3.prediction-result-title{
+    font-family: 'Lato', sans-serif;
+    font-size: x-large;
+    font-weight: 400;
+    color: #2f3542;
+}
+div.prediction-result-block>li{
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    list-style: square;
+}
+div.prediction-result-block>p{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+div.prediction-result-block{
+    margin-top: 3em;
+    border: solid #2f3542;
+    border-width: 2px 0 0 0;
+}
+span.semibold-lato{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}

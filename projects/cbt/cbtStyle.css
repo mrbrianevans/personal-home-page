@@ -1,0 +1,25 @@
+div.white{
+    background-color: #dbdcd0;
+}
+table.cbt{
+    border-collapse: collapse;
+    width: 80%
+}
+table.cbt tr, td, th{
+    border-width: 1px;
+    border: solid #2F302F;
+    padding: 3px;
+}
+form{
+    background-color: rgba(0,0,0,0);
+}
+
+button{
+    padding: 10px;
+}
+table.cbt th{
+    width: 20%;
+}
+table.cbt td{
+    vertical-align: top;
+}
