@@ -11,3 +11,7 @@
 /investing/csv/
 /investing/fileStorage/
 /investing/graphData/
+/images
+**/*.pdf
+**/*.png
+**/*.gif
