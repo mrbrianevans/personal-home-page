@@ -1,0 +1,9 @@
+version: '3'
+services:
+  brian-evans-tech:
+    container_name: betech
+    build: .
+    ports:
+      - 80:80
+    volumes:
+    - ./:/var/www/html/
