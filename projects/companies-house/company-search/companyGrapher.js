@@ -1,7 +1,7 @@
 google.charts.load('current', {'packages': ['corechart']});
 google.charts.setOnLoadCallback(graph);
 function graph() {
-    let url = "https://www.brianevans.tech/investing/file_handler.php?graphDataFile=";
+    let url = "/investing/file_handler.php?graphDataFile=";
     var fileRequest = new XMLHttpRequest();
     var datatable = new google.visualization.DataTable();
     var details = {

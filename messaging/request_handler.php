@@ -4,7 +4,7 @@ require "../server_details.php";
 $database = new mysqli(SERVER_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME);
 
 if (isset($_GET["new_contact"])) {
-    if ($_SERVER['HTTP_REFERER']=="https://brianevans.tech/messaging/"||$_SERVER['HTTP_REFERER']=="https://www.brianevans.tech/messaging/") {
+    if ($_SERVER['HTTP_REFERER']=="https://brianevans.tech/messaging/"||$_SERVER['HTTP_REFERER']=="/messaging/") {
         $uname = $_GET['user'];
         $recipient_name = $_GET["new_contact"];
         $sql = "INSERT INTO contacts (sender_name, sender_ip, recipient_name) VALUES ('$uname', '$ip_address', '$recipient_name')";

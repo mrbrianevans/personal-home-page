@@ -8,12 +8,12 @@ $pageName = "Grades Calculator";
 <head>
 
 
-    <link href="https://www.brianevans.tech/styelsheet.css" media="only screen and (min-width: 769px)" rel="stylesheet"
+    <link href="/styelsheet.css" media="only screen and (min-width: 769px)" rel="stylesheet"
           type="text/css">
-    <link href="https://www.brianevans.tech/mobile_stylesheet.css" media="only screen and (max-width: 768px)"
+    <link href="/mobile_stylesheet.css" media="only screen and (max-width: 768px)"
           rel="stylesheet" type="text/css">
-    <link href="https://www.brianevans.tech/images/favicon.ico" rel="icon" type="image/x-icon"/>
-    <script src="https://www.brianevans.tech/frontend.js"></script>
+    <link href="/images/favicon.ico" rel="icon" type="image/x-icon"/>
+    <script src="/frontend.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://use.typekit.net/rwv6npw.css">
 
@@ -29,7 +29,7 @@ $pageName = "Grades Calculator";
 </head>
 
 <body>
-<header><a href="https://www.brianevans.tech/index.php" style="text-decoration: none"><h1 class="orange" id="brian">
+<header><a href="/index.php" style="text-decoration: none"><h1 class="orange" id="brian">
             Brian Evans</h1></a></header>
 <div class="mainbody">
     <div class="singlebox">
@@ -55,10 +55,10 @@ $pageName = "Grades Calculator";
 
     <div class="column">&copy; Brian Evans <?= date("Y") ?></div>
 
-    <div class="column"><a href="https://www.brianevans.tech/sitemap.php" style="text-decoration: none">Site map</a>
+    <div class="column"><a href="/sitemap.php" style="text-decoration: none">Site map</a>
     </div>
 
-    <div class="column"><a href="https://www.brianevans.tech/contact/index.php" style="text-decoration: none">Contact
+    <div class="column"><a href="/contact/index.php" style="text-decoration: none">Contact
             me</a></div>
 
 </footer>

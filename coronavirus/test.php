@@ -7,9 +7,9 @@ include("$root/visit.php");
 <head>
 
 
-    <link href="https://www.brianevans.tech/styelsheet.css" media="only screen and (min-width: 769px)" rel="stylesheet" type="text/css">
-    <link href="https://www.brianevans.tech/mobile_stylesheet.css" media="only screen and (max-width: 768px)" rel="stylesheet" type="text/css">
-    <link href="https://www.brianevans.tech/images/favicon.ico" rel="icon" type="image/x-icon" />
+    <link href="/styelsheet.css" media="only screen and (min-width: 769px)" rel="stylesheet" type="text/css">
+    <link href="/mobile_stylesheet.css" media="only screen and (max-width: 768px)" rel="stylesheet" type="text/css">
+    <link href="/images/favicon.ico" rel="icon" type="image/x-icon" />
     <script type="text/javascript" src="coronavirus.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://use.typekit.net/rwv6npw.css">
@@ -18,7 +18,7 @@ include("$root/visit.php");
 </head>
 
 <body onload="continuouslyUpdateStats()">
-<header><a href="https://www.brianevans.tech/index.php" style="text-decoration: none"><h1 class="orange" id="brian">Brian Evans</h1></a></header>
+<header><a href="/index.php" style="text-decoration: none"><h1 class="orange" id="brian">Brian Evans</h1></a></header>
 <div class="notice">For more information on coronavirus visit <a href="https://coronavirus.gov">CoronaVirus.Gov</a></div>
         <h2>&nbsp;
             Coronavirus

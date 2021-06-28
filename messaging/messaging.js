@@ -12,7 +12,7 @@ function addContact() {
             window.alert(this.response);
         }
     };
-    xhttps.open("GET", "https://www.brianevans.tech/messaging/request_handler.php?new_contact="+contactName
+    xhttps.open("GET", "/messaging/request_handler.php?new_contact="+contactName
     +"&user="+user);
     xhttps.send();
     document.getElementById("newcontactname").value = document.getElementById("newcontactname").defaultValue;

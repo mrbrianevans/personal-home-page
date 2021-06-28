@@ -7,13 +7,13 @@ include("$root/visit.php");
 <head>
 
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-    <link href="https://www.brianevans.tech/styelsheet.css" media="only screen and (min-width: 769px)" rel="stylesheet" type="text/css">
-    <link href="https://www.brianevans.tech/mobile_stylesheet.css" media="only screen and (max-width: 768px)" rel="stylesheet" type="text/css">
-    <link href="https://www.brianevans.tech/images/favicon.ico" rel="icon" type="image/x-icon" />
+    <link href="/styelsheet.css" media="only screen and (min-width: 769px)" rel="stylesheet" type="text/css">
+    <link href="/mobile_stylesheet.css" media="only screen and (max-width: 768px)" rel="stylesheet" type="text/css">
+    <link href="/images/favicon.ico" rel="icon" type="image/x-icon" />
     <script type="text/javascript" src="coronavirus.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://use.typekit.net/rwv6npw.css">
-    <link rel="canonical" href="https://www.brianevans.tech/coronavirus" />
+    <link rel="canonical" href="/coronavirus" />
     <meta name="author" content="Brian Evans">
     <link rel="stylesheet" href="covidStyle.css" type="text/css"/>
 
@@ -24,7 +24,7 @@ include("$root/visit.php");
 </head>
 
 <body>
-<header><a href="https://www.brianevans.tech/index.php" style="text-decoration: none"><h1 class="orange" id="brian">Brian Evans</h1></a></header>
+<header><a href="/index.php" style="text-decoration: none"><h1 class="orange" id="brian">Brian Evans</h1></a></header>
 <div class="notice">
     For very interesting models and statistics visit <a href="https://covid19.healthdata.org/projections">Institute for Health Metrics and Evaluation</a>
     . For predictions, visit <a href="predictions.php">Coronavirus Predictions</a>
@@ -73,9 +73,9 @@ include("$root/visit.php");
 
     <div class="column">&copy; Brian Evans 2020</div>
 
-    <div class="column"><a href="https://www.brianevans.tech/sitemap.php" style="text-decoration: none">Site map</a></div>
+    <div class="column"><a href="/sitemap.php" style="text-decoration: none">Site map</a></div>
 
-    <div class="column"><a href="https://www.brianevans.tech/contact/index.php" style="text-decoration: none">Contact me</a></div>
+    <div class="column"><a href="/contact/index.php" style="text-decoration: none">Contact me</a></div>
 
 </footer>
 </body></html>

@@ -4,8 +4,8 @@ require("$root/visitWithoutLogin.php");
 $projects = array(
     array("label" => "Coronavirus Graphs", "href" => "/coronavirus", "status" => "complete", "description" => "Innovative ways of visualising the latest data"),
     array("label" => "Investing graphs", "href" => "/investing", "status" => "complete", "description" => "A stock market investment portfolio tracker"),
-    array("label" => "Filter Facility", "href" => "https://filterfacility.co.uk", "status" => "incomplete", "description" => "A facility to filter and export companies house accounts data"),
-    array("label" => "Companies Stream", "href" => "https://companies.stream", "status" => "complete", "description" => "Live stream events from companies house, such as new accounts filings"),
+    array("label" => "Filter Facility", "href" => "https://dev.filterfacility.co.uk", "status" => "incomplete", "description" => "A facility to filter and export companies house accounts data"),
+    array("label" => "Companies Stream", "href" => "http://companies.stream", "status" => "complete", "description" => "Live stream events from companies house, such as new accounts filings"),
     array("label" => "What Whiskey", "href" => "https://whatwhiskey.com", "status" => "complete", "description" => "Data visualisation for an investment asset class, Whiskey"),
     array("label" => "Predictions", "href" => "/predictions", "status" => "complete", "description" => "Make a prediction in someone else's contest, or start a new one!"),
     array("label" => "A Level grades explorer", "href" => "/projects/grades-comparison", "status" => "complete", "description" => "Browse all A-Level results broken down by subject, gender and grade"),

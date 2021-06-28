@@ -25,7 +25,7 @@ $pageName = "Current Meter Calibration Calculator";
 </head>
 
 <body>
-<header><a href="https://www.brianevans.tech/index.php" style="text-decoration: none"><h1 class="orange" id="brian">
+<header><a href="/index.php" style="text-decoration: none"><h1 class="orange" id="brian">
             Brian Evans</h1></a></header>
 <div class="mainbody">
     <div class="singlebox">
@@ -51,10 +51,10 @@ $pageName = "Current Meter Calibration Calculator";
 
     <div class="column">&copy; Brian Evans <?= date("Y") ?></div>
 
-    <div class="column"><a href="https://www.brianevans.tech/sitemap.php" style="text-decoration: none">Site map</a>
+    <div class="column"><a href="/sitemap.php" style="text-decoration: none">Site map</a>
     </div>
 
-    <div class="column"><a href="https://www.brianevans.tech/contact/index.php" style="text-decoration: none">Contact
+    <div class="column"><a href="/contact/index.php" style="text-decoration: none">Contact
             me</a></div>
 
 </footer>
