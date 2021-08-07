@@ -15,3 +15,5 @@
 **/*.pdf
 **/*.png
 **/*.gif
+/googleChartsLocal.js
+/coronavirus/ihme_main.js

@@ -380,13 +380,13 @@ function drawMovingAverageGraph(){
                     wrapper.draw();
                     break;
                 case 501:
-                    alert("Internal server error occurred");
+                    console.error("Internal server error occurred");
                     break;
                 case 404:
-                    alert("URL not set correctly");
+                    console.error("URL not set correctly");
                     break;
                 default:
-                    alert("Unknown error occured with status code: "+modelRequest.status);
+                    console.error("Unknown error occured with status code: "+modelRequest.status);
                     break;
             }
         }
@@ -419,13 +419,13 @@ function drawFatalityRateGraph(){
                     wrapper.draw();
                     break;
                 case 501:
-                    alert("Internal server error occurred");
+                    console.error("Internal server error occurred");
                     break;
                 case 404:
-                    alert("URL not set correctly");
+                    console.error("URL not set correctly");
                     break;
                 default:
-                    alert("Unknown error occured with status code: "+modelRequest.status);
+                    console.error("Unknown error occured with status code: "+modelRequest.status);
                     break;
             }
         }
@@ -466,13 +466,13 @@ function drawWeeklyGeoGraph(){
                     wrapper.draw();
                     break;
                 case 501:
-                    alert("Internal server error occurred");
+                    console.error("Internal server error occurred");
                     break;
                 case 404:
-                    alert("URL not set correctly");
+                    console.error("URL not set correctly");
                     break;
                 default:
-                    alert("Unknown error occured with status code: "+modelRequest.status);
+                    console.error("Unknown error occured with status code: "+modelRequest.status);
                     break;
             }
         }
@@ -538,13 +538,13 @@ function drawWeeklyEnglandWalesDeaths(){
                     wrapper.draw();
                     break;
                 case 501:
-                    alert("Internal server error occurred");
+                    console.error("Internal server error occurred");
                     break;
                 case 404:
-                    alert("URL not set correctly");
+                    console.error("URL not set correctly");
                     break;
                 default:
-                    alert("Unknown error occured with status code: "+modelRequest.status);
+                    console.error("Unknown error occured with status code: "+modelRequest.status);
                     break;
             }
         }
@@ -586,13 +586,13 @@ function drawProportionOfDeathsThatAreCovid(){
                     wrapper.draw();
                     break;
                 case 501:
-                    alert("Internal server error occurred");
+                    console.error("Internal server error occurred");
                     break;
                 case 404:
-                    alert("URL not set correctly");
+                    console.error("URL not set correctly");
                     break;
                 default:
-                    alert("Unknown error occured with status code: "+modelRequest.status);
+                    console.error("Unknown error occured with status code: "+modelRequest.status);
                     break;
             }
         }
