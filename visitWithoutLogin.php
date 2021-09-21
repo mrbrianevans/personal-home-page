@@ -17,7 +17,7 @@
 	$previous = $_SESSION['previous'];
     $session_id = session_id();
 	if ($database->connect_error){
-		die("Connection failed" . $database->connect_error);
+		die("Connection failed " . $database->connect_error);
 	}
 
 	$sql = "INSERT INTO visits (date_visited, ip_address, name, page, previous, session_id) 

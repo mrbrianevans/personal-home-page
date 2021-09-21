@@ -31,7 +31,7 @@ class predictiveTextModel
     }
     public function getWordLike($partialWord){
         $sql = "SELECT word FROM words WHERE keypad LIKE '$partialWord%' ORDER BY `usage` desc ";
-        $wordArray = $this->database->query($sql)->fetch_all(MYSQLI_NUM);
+        $wordArray = $this->database->query($sql)->fetch_all();
         $wordList = array_map("current", $wordArray);
         return $wordList;
     }
