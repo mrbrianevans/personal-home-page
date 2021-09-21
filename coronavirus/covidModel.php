@@ -11,8 +11,8 @@ class covidModel
     public function __construct()
     {
         //TODO: Get this programatically!!
-        $this->latestWeek = 22;
-        $this->latestVersion = 35;
+        $this->latestWeek = 35;
+        $this->latestVersion = 49;
         // the url is 'https://api.beta.ons.gov.uk/v1/datasets/weekly-deaths-age-sex/editions/covid-19/versions'
         // .then((i: { version: number }[]) => i.sort((a, b) => b.version - a.version)[0].version)
         $this->currentYear = 2021;
@@ -22,7 +22,8 @@ class covidModel
      * @param array $array Assoc array in the format $array[date][series] = data
      * @return string JSON encoded, Google formatted, ready to be used by DataTable()
      */
-    private function convertArrayToGraphData($array){
+    private function convertArrayToGraphData(array $array): string
+    {
         $series = array_keys($array[array_key_first($array)]);
         $graphData['cols'][] = array("label"=>"Date", "type"=>"date");
         foreach($series as $serii) $graphData["cols"][] = array("label"=>$serii, "type"=>"number");
@@ -39,7 +40,8 @@ class covidModel
      * Get the historical daily death count for the United States and United Kingdom
      * @param int $days Number of days history, ie 14 would be last two weeks. If omitted, its will get data since 1st March
      */
-    public function getDeathHistory($days=null){
+    public function getDeathHistory($days=null): string
+    {
         $url = "https://corona.lmao.ninja/v2/historical/";
         $daysSinceMarch = (int)((time() - strtotime("1 March 2020"))/86400);
         //USA
@@ -62,7 +64,7 @@ class covidModel
         return $this->convertArrayToGraphData($deathArray);
     }
 
-    public function getDailyDeathHistory($days=null)
+    public function getDailyDeathHistory($days=null): string
     {
         $url = "https://corona.lmao.ninja/v2/historical/";
         $daysSinceMarch = (int)((time() - strtotime("1 March 2020"))/86400);
@@ -83,7 +85,7 @@ class covidModel
         return $this->convertArrayToGraphData($deathArray);
     }
 
-    public function get7dayMovingAverageDeathHistory($days=null)
+    public function get7dayMovingAverageDeathHistory($days=null): string
     {
         $url = "https://corona.lmao.ninja/v2/historical/";
         $daysSinceMarch = (int)((time() - strtotime("1 March 2020"))/86400);
@@ -108,7 +110,8 @@ class covidModel
         return $this->convertArrayToGraphData($deathArray);
     }
 
-    public function getCaseFatalityRate(){
+    public function getCaseFatalityRate(): string
+    {
         $url = "https://corona.lmao.ninja/v2/historical/";
         $daysSinceMarch = (int)((time() - strtotime("1 March 2020"))/86400);
         $usRequest = curl_init($url."usa?lastdays=".($days??$daysSinceMarch));

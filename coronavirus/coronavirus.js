@@ -90,6 +90,8 @@ function drawCharts() {
             weeklyDetails.height = 500;
             weeklyDetails.legend.position = "top";
             weeklyDetails.chartArea.width = "80%";
+            weeklyDetails.hAxis.format = "d MMM";
+            weeklyDetails.vAxis = {minValue: 0, format: "decimal"};
             let weeklyConstructor = {
                 "chartType": "ColumnChart",
                 "dataTable": weeklyDatatable,
@@ -178,7 +180,7 @@ function drawCombinedDeathsAndCasesGraph(){
     };
     let beginningOfPandemic = new Date (2020, 2, 10);
     let days;
-    for (let i = 0; i < 500; i++) {
+    for (let i = 0; i < 5000; i++) {
         let tempDate = new Date();
         tempDate.setDate(tempDate.getDate()-i);
         if(tempDate.toDateString()===beginningOfPandemic.toDateString()){
@@ -261,7 +263,7 @@ function drawRollingCaseFatalityRateGraphUK(){
     };
     let beginningOfPandemic = new Date (2020, 3, 10);
     let days;
-    for (let i = 0; i < 500; i++) {
+    for (let i = 0; i < 5000; i++) {
         let tempDate = new Date();
         tempDate.setDate(tempDate.getDate()-i);
         if(tempDate.toDateString()===beginningOfPandemic.toDateString()){
@@ -347,7 +349,7 @@ function drawRollingCaseFatalityRateGraphUSA(){
     };
     let beginningOfPandemic = new Date (2020, 3, 10);
     let days;
-    for (let i = 0; i < 500; i++) {
+    for (let i = 0; i < 5000; i++) {
         let tempDate = new Date();
         tempDate.setDate(tempDate.getDate()-i);
         if(tempDate.toDateString()===beginningOfPandemic.toDateString()){

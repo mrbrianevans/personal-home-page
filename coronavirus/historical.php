@@ -107,27 +107,27 @@ if(isset($_GET["type"])){
         echo json_encode($array);
     }
     elseif($_GET["type"] === "moving-average"){
-        require "covidModel.php";
+        require_once "covidModel.php";
         $covidModel = new covidModel();
         echo $covidModel->get7dayMovingAverageDeathHistory();
     } elseif($_GET["type"] === "fatality-rate"){
-        require "covidModel.php";
+        require_once "covidModel.php";
         $covidModel = new covidModel();
         echo $covidModel->getCaseFatalityRate();
     }elseif($_GET["type"] === "state-weekly"){
         echo json_encode(json_decode(file_get_contents("data/weeklyMap.json")));
     } elseif ($_GET["type"] === "england-weekly") {
-        require "covidModel.php";
+        require_once "covidModel.php";
         $covidModel = new covidModel();
         echo $covidModel->getTotalWeeklyDeathsInEnglandAndWales();
     } elseif($_GET["type"]=== "proportion"){
-        require "covidModel.php";
+        require_once "covidModel.php";
         $covidModel = new covidModel();
         echo $covidModel->getProportionOfDeathsAsCOVID();
     }
 }
 elseif(isset($_GET["database"])){
-    require "covidModel.php";
+    require_once "covidModel.php";
     $covidModel = new covidModel();
     $covidModel->deleteDuplicateDatabaseEntries();
 }

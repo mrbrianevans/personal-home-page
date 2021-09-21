@@ -4,9 +4,9 @@ import matplotlib.dates as mdates
 from datetime import datetime
 
 DATABASE = mysql.connector.connect(
-    host="sql126.main-hosting.eu",
+    host="localhost",
     user="u787130504_brian",
-    passwd=";+B8CKe&",
+    passwd="?Zw0&Wsu",
     database="u787130504_oceans"
 )
 pointer = DATABASE.cursor()
@@ -55,10 +55,10 @@ def get_historical_data():
     ax_d.legend()
     ax_c.set_ylim(ymin=0)
     ax_d.set_ylim(ymin=0)
-    # ax_c.xaxis.set_major_locator(mdates.MonthLocator())
-    # ax_c.xaxis.set_major_formatter(mdates.DateFormatter("%b"))
-    # ax_c.xaxis.set_minor_locator(mdates.DayLocator())
-    # ax_c.xaxis.set_minor_formatter(mdates.DateFormatter("%d"))
+    ax_c.xaxis.set_major_locator(mdates.MonthLocator())
+    ax_c.xaxis.set_major_formatter(mdates.DateFormatter("%b"))
+    ax_c.xaxis.set_minor_locator(mdates.DayLocator())
+    ax_c.xaxis.set_minor_formatter(mdates.DateFormatter("%d"))
     ax_c.grid(b=True, linestyle="--", axis="both")
     ax_d.grid(b=True, linestyle="--", axis="both")
     plt.savefig("graph.png", transparent=True, format="png")
