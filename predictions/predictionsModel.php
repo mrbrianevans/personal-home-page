@@ -41,7 +41,7 @@ class predictionsModel
         $sql = "INSERT INTO predictions (contest_id, contest_name, username, ip_address, " . $type . ")  VALUES ('$contest_id', '$contestName', '$username', '$ip_address', '$prediction')";
         $this->database->query($sql);
         if($this->database->error)
-            return "Entry not added. This error occured: " . $this->database->error . "\n\nThe sql issued was $sql";
+            return "Entry not added. This error occurred: " . $this->database->error . "\n\nThe sql issued was $sql";
         else
             return "Entry of '$prediction' successfully added";
     }
