@@ -12,3 +12,7 @@ if(isset($_GET["option"])){
             break;
     }
 }
+
+function consoleLog($message){
+    echo "<script>console.log('$message')</script>";
+}

@@ -1,7 +1,7 @@
 <?php
 
 
-require "jcqGradeStatisticsModel.php";
+require "jcqGradeStatisticsModel.php"; // this causes an error
 $jcqModel = new jcqGradeStatisticsModel();
 if(isset($_GET["readPDF"])) require "pdfReader.php";
 elseif (isset($_GET["subject"])) { // display a dashboard for a particular subject

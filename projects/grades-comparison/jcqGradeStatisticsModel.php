@@ -1,5 +1,6 @@
 <?php
 
+echo "loaded jcqGradeStatisticsModel.php";
 
 class jcqGradeStatisticsModel
 {
@@ -10,6 +11,7 @@ class jcqGradeStatisticsModel
     private array $gradeStatArrays;
     public function __construct()
     {
+        echo "__construct jcqGradeStatisticsModel.php";
 //        $this->latestGrades = json_decode(file_get_contents("https://brianevans.tech/projects/grades-comparison/json/jcq-2019-a-level-stats-text.json"), true);
         $this->gradeStatArrays["aLevels"]["2019"]["uk"] = json_decode(file_get_contents("json/jcq-2019-a-level-stats-text.json"), true);
         $this->gradeStatArrays["aLevels"]["2019"]["wales"] = json_decode(file_get_contents("json/jcq-2019-a-level-stats-wales.json"), true);

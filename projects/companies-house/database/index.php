@@ -35,7 +35,7 @@ $pageName = "Companies house database";
     <div class="singlebox">
 
         <?php
-        require_once $_SERVER["DOCUMENT_ROOT"]."/breadcrumb.php";
+//        require_once $_SERVER["DOCUMENT_ROOT"]."/breadcrumb.php";
         require "controller.php";
         ?>
     </div>

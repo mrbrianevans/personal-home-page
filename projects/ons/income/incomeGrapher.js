@@ -6,6 +6,7 @@ function drawIncomeChart(){
     optionsRequest.onreadystatechange = () => {
         if(optionsRequest.readyState===4&&optionsRequest.status===200){
             var options = JSON.parse(optionsRequest.response);
+            console.log('Options:', options)
             var columnDatatable = new google.visualization.DataTable();
             columnDatatable.addColumn("string", "Percentile");
             columnDatatable.addColumn("number", "Income");

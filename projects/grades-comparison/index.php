@@ -47,7 +47,7 @@ if (isset($_GET["subject"])) {
     <div class="singlebox">
 
         <?php
-        require $_SERVER['DOCUMENT_ROOT'] . "/breadcrumb.php";
+//        require $_SERVER['DOCUMENT_ROOT'] . "/breadcrumb.php";
         ?>
         <?php
         require "dashboardController.php" ;

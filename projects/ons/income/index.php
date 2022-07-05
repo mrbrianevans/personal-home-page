@@ -32,7 +32,7 @@ $pageName = "Income statistics from the ONS";
     <div class="singlebox lilac">
 
         <?php
-        require $_SERVER['DOCUMENT_ROOT'] . "/breadcrumb.php";
+//        require $_SERVER['DOCUMENT_ROOT'] . "/breadcrumb.php";
         ?>
             <?php
             require "controller.php";

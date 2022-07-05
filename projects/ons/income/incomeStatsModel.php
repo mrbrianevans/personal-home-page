@@ -5,6 +5,7 @@ class incomeStatsModel
 {
     public static function getListOfStatisticsOptions()
     {
+        // this api url doesn't seem to still be active
         $url = "https://api.beta.ons.gov.uk/v1/datasets/ashe-table-7-earnings/editions/time-series/versions/1/dimensions/statistics/options";
         $optionsRequest = curl_init($url);
         curl_setopt($optionsRequest, 19913, 1);

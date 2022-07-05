@@ -32,10 +32,11 @@ require("$root/visit.php");
     <div class="box single pink">
 
         <?php
-        require_once "$root/breadcrumb.php";
+//        require_once "$root/breadcrumb.php";
         ?>
         <p>
-            For a full sitemap, visit <a href="../sitemap.php/index.php">human readable sitemap</a>
+            For a full sitemap, visit <a href="../sitemap.php/index.php">human readable sitemap</a>. This only includes
+            projects hosted on this domain. For other showcased projects, view the <a href="/index.php">homepage</a>.
         </p>
         <div class="project_gallery pink">
             <?php

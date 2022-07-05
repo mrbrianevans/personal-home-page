@@ -32,7 +32,7 @@ $pageName = "T9 Mobile Keypad Autocomplete Predictive Text";
     <div class="singlebox">
 
         <?php
-        require $_SERVER['DOCUMENT_ROOT'] . "/breadcrumb.php";
+//        require $_SERVER['DOCUMENT_ROOT'] . "/breadcrumb.php";
         ?>
         <?php require("controller.php") ?>
         <?php require("keypad.php") ?>
