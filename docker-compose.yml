@@ -1,25 +1,23 @@
 version: '3'
 services:
-  brian-evans-tech:
-    container_name: betech
+  web:
     build: .
     ports:
       - "80:80"
-# can't share directories from windows to WSL
-#    volumes:
-#      - ./:/var/www/html/
+# bind mounts for live updates during development
+    volumes:
+      - ./www:/var/www/html/:ro
+      - ./src:/var/www/src/:ro
     environment:
       db_host: db
   db:
-    container_name: bedb
-    image: mysql
+    build: db
     ports:
       - "3306:3306"
     environment:
-      MYSQL_ROOT_PASSWORD: root
-      MYSQL_DATABASE: u787130504_oceans
+      MARIADB_ROOT_PASSWORD: root
+      MARIADB_DATABASE: u787130504_oceans
     volumes:
-      - ./db:/docker-entrypoint-initdb.d
-      - db_data:/VAR/LIB/MYSQL
+      - db_data:/var/lib/mysql
 volumes:
   db_data:

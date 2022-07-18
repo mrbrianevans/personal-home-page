@@ -1,0 +1,9 @@
+id,name,description,start_date,end_date,url,featured
+7,Filter Facility,A facility to filter and export companies house accounts data,,,https://dev.filterfacility.co.uk,0
+8,Companies Stream,"Live stream events from companies house, such as new accounts filings.",,,https://companies.stream,1
+9,Wiki,"My personal wiki with articles about programming, databases, and web development.",,,https://brianevans.wiki,1
+10,Social media data visualiser,Final year dissertation project for Computer Science degree at University of Exeter.,,,https://social-media-export-analyser-mrybc.ondigitalocean.app,1
+11,What Whiskey,Data visualisation for investing in whiskey maturation.,,,https://whatwhiskey.com,0
+12,Predictions,"Make a prediction in someone else's contest, or start a new one!",,,/predictions,0
+13,CH Guide,A dev-friendly guide to using Companies House API.,,,https://chguide.co.uk,1
+14,T9 Keypad Predictive text,Old fashioned 9 key number keypad for typing English words.,,,/projects/t9autocomplete,0

@@ -111,7 +111,28 @@ a.project-link{
     grid-column: 1 / -1 ;
 }
 
+#profile{
+    grid-row: 1 / span 2;
+    box-shadow: none;
+    border-radius: 50%;
+    /*border: solid rgb(234, 89, 64) 1rem;*/
+    overflow: clip;
+    display: inline-flex;
+    justify-content: center;
+}
+#profile img{
+    height: 100%; /*just enough to be clipped*/
+
+    transition: height ease-out 1s;
+}
+#profile img:hover{
+    height: 190%;
+}
+
 footer{
     text-align: center;
     margin: 2em;
+}
+footer a{
+    color: #A02B17FF;
 }

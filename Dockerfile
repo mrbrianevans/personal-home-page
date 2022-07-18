@@ -1,9 +1,10 @@
 FROM php:7.4-apache
 
 
-WORKDIR /var/www/html/
+WORKDIR /var/www/
 
 RUN a2enmod rewrite
 RUN docker-php-ext-install mysqli
 
-COPY www .
+COPY www html/
+COPY src src/
