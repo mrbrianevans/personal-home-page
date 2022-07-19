@@ -18,7 +18,7 @@ $projects = $p->listProjects(true);
 
         <div id="page-title">
             <header><h1>Brian Evans</h1></header>
-            <p>Welcome to my website. I'm a software developer focused on web development with JavaScript.</p>
+            <p>Welcome to my website. I'm a software developer focused on web development with JavaScript frontend and backend.</p>
             <p>Take a look at some of my projects listed here or
                 view some source code on my <a href="https://github.com/mrbrianevans">GitHub profile</a>.</p>
         </div>
@@ -27,20 +27,26 @@ $projects = $p->listProjects(true);
             <img src="./static/me.png">
         </div>
 
-        <a class="project-box-outer">
+        <div class="project-box-outer">
             <div class="project-box-inner" >
             <h3 class="project-title">Open to offers</h3>
                 <p class="project-description">I am currently working on these projects, but I am open to employment offers.</p>
             </div>
+        </div>
 
-        <?php foreach ($projects as $project) { ?><a
+        <?php foreach ($projects as $project) { ?>
+            <a
                 href="<?= $project["url"] ?>" class="project-link project-box-outer"
                 <?= $project["url"] == "/projects" ? 'id="full-project-directory"' : "" ?>>
-            <div class="project-box-inner" >
-
+                <div class="project-box-inner" >
                     <h3 class="project-title"><?= $project["name"] ?></h3>
-                    <p class="project-description"><?= $project["description"] ?></p>
-                </div></a>
+                    <p class="project-description"><?= $project["short_description"] ?></p>
+<!--                    --><?//= print_r($project["tags"]) ?>
+                    <?php foreach ($project["tags"] as $tag){ ?>
+                        <span class="project-tag"><?= $tag ?></span>
+                    <?php } ?>
+                </div>
+            </a>
         <?php } ?>
     </article>
 
