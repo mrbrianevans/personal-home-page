@@ -9,7 +9,9 @@ $projects = $p->listProjects(true);
     <meta charset="UTF-8"/>
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
-    <link rel="stylesheet" type="text/css" href="index_styling.css"/>
+    <link rel="stylesheet" type="text/css" href="static/styles/index_styling.css"/>
+    <link rel="stylesheet" type="text/css" href="static/styles/theme.css"/>
+    <link rel="stylesheet" type="text/css" href="static/styles/pageLayout.css"/>
     <title>Brian Evans</title>
 </head>
 <body>
@@ -27,23 +29,23 @@ $projects = $p->listProjects(true);
             <img src="./static/me.png">
         </div>
 
-        <div class="project-box-outer">
-            <div class="project-box-inner" >
-            <h3 class="project-title">Open to offers</h3>
-                <p class="project-description">I am currently working on these projects, but I am open to employment offers.</p>
+        <div class="card-outer">
+            <div class="card-inner" >
+            <h3>Open to offers</h3>
+            <p>I am currently working on these projects, but I am open to employment offers.</p>
             </div>
         </div>
 
         <?php foreach ($projects as $project) { ?>
             <a
-                href="<?= $project["url"] ?>" class="project-link project-box-outer"
+                href="<?= $project["url"] ?>" class="card-outer"
                 <?= $project["url"] == "/projects" ? 'id="full-project-directory"' : "" ?>>
-                <div class="project-box-inner" >
-                    <h3 class="project-title"><?= $project["name"] ?></h3>
-                    <p class="project-description"><?= $project["short_description"] ?></p>
+                <div class="card-inner" >
+                    <h3><?= $project["name"] ?></h3>
+                    <p><?= $project["short_description"] ?></p>
 <!--                    --><?//= print_r($project["tags"]) ?>
                     <?php foreach ($project["tags"] as $tag){ ?>
-                        <span class="project-tag"><?= $tag ?></span>
+                        <span class="orange tag"><?= $tag ?></span>
                     <?php } ?>
                 </div>
             </a>

@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap');
+:root{
+    --PRIMARY: rgb(234, 89, 64);
+    --SECONDARY: #A02B17FF;
+    --DARK:  #2f3542;
+    --LIGHT: #f1e9d4;
+    --PRIMARY-GRADIENT: linear-gradient(to bottom right, rgba(255,88,42,1) 0%, rgba(231,76,60,1) 100%);
+    --SHADOW: 0 0 1rem rgba(0,0,0,0.3);
+}
+
+*{
+    font-family: 'Inter', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f1f1f1;
+}
+
+/* PAGE TITLE (big orange box containing the page title and description) */
+@media screen and (min-width: 40rem){
+    #page-title{
+        --font-size: 5rem;
+    }
+}
+@media screen and (min-width: 26rem) and (max-width: 40rem){
+    #page-title{
+        --font-size: 3.5rem;
+    }
+}
+@media screen and (max-width: 26rem){
+    #page-title{
+        --font-size: 2rem;
+    }
+}
+#page-title{
+    background: VAR(--PRIMARY-GRADIENT);
+    padding: 50px;
+    user-select: none;
+    border-radius: 1rem;
+}
+#page-title h1{
+    transition: font-size ease 1s;
+    font-size: VAR(--font-size);
+    font-weight: 800;
+    color: VAR(--DARK);
+    margin: 0;
+}
+#page-title:hover h1{
+    font-size: CALC(1.2 * VAR(--font-size));
+}
+#page-title p{
+    color: VAR(--DARK);
+}
+#page-title a{
+    color: #4b4e5a;
+}
+
+/* TAGS (like pills) */
+span.tag{
+    border-radius: 0.25rem;
+    padding: 1px 0.5rem;
+    white-space: nowrap;
+}
+span.tag.orange{
+    background: VAR(--PRIMARY);
+    color: VAR(--DARK);
+}
+span.tag.dark{
+    color: VAR(--LIGHT);
+    background: VAR(--DARK);
+}
+
+/* CARD (a little box containing some text, must be 2 nested elements like <a> or <div>) */
+
+.card-outer {
+    padding: 0.5rem;
+    background: VAR(--PRIMARY-GRADIENT);
+    display: flex;
+    flex-direction: column;
+    border-radius: 1rem;
+    transition: transform 300ms ease, box-shadow 300ms ease;
+}
+a.card-outer{
+    text-decoration: none;
+}
+a.card-outer:hover {
+    box-shadow: VAR(--SHADOW);
+    transform: scale(1.02);
+}
+
+.card-outer .card-inner{
+    border-radius: 0.6rem;
+    padding: 1rem;
+    width: 100%;
+    height: 100%;
+    background-color: VAR(--DARK);
+    color: VAR(--LIGHT);
+}
+.card-inner h3{
+    color: VAR(--PRIMARY);
+    font-weight: 600;
+    text-align: center;
+    transition: font-size ease 1s;
+    font-size: medium;
+}
+.card-inner p{
+    font-weight: 400;
+}
+.card-inner a{
+    color: VAR(--SECONDARY);
+}
+
+/* FOOTER (links to other pages) */
+footer{
+    text-align: center;
+    margin: 2em;
+}
+footer a{
+    color: VAR(--SECONDARY);
+}

@@ -1,0 +1,33 @@
+
+@media screen and (min-width: 40em){
+    #profile {
+        grid-row-start: span 2;
+        height: 20rem;
+    }
+}
+@media screen and (max-width: 40em){
+    #profile {
+        visibility: hidden;
+        height: 0;
+    }
+}
+
+#full-project-directory{
+    grid-column: 1 / -1 ;
+}
+
+#profile{
+    box-shadow: none;
+    border-radius: 50%;
+    /*border-bottom: solid rgb(234, 89, 64) 0.25rem;*/
+    overflow: clip;
+    display: inline-flex;
+    justify-content: center;
+}
+#profile img{
+    height: 100%;
+    transition: height ease-out 1s;
+}
+#profile:hover img{
+    height: 190%;
+}
